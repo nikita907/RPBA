@@ -31,12 +31,12 @@
             </DropShadow>
          </effect>
       </Rectangle>
-      <Button layoutX="682.0" layoutY="665.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="126.0" style="-fx-background-color: 10; -fx-border-color: #F85C50;" text="Удалить" textFill="#f85c50">
+      <Button fx:id="deleteProductButton" layoutX="682.0" layoutY="665.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="126.0" style="-fx-background-color: 10; -fx-border-color: #F85C50;" text="Удалить" textFill="#f85c50">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="504.0" layoutY="666.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="164.0" style="-fx-border-color: #0260E8; -fx-background-color: 10;" text="Редактировать" textFill="#0260e8">
+      <Button fx:id="editProductButton" layoutX="504.0" layoutY="666.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="164.0" style="-fx-border-color: #0260E8; -fx-background-color: 10;" text="Редактировать" textFill="#0260e8">
          <font>
             <Font size="14.0" />
          </font>
@@ -56,7 +56,7 @@
             <Font name="System Bold" size="36.0" />
          </font>
       </Text>
-      <TableView layoutX="10.0" layoutY="186.0" prefHeight="408.0" prefWidth="1279.0">
+      <TableView fx:id="storageTableView" layoutX="10.0" layoutY="186.0" prefHeight="408.0" prefWidth="1279.0">
         <columns>
           <TableColumn prefWidth="237.60000324249268" style="-fx-font-size: 14; -fx-background-color: #FFFFFF;" text="Артикул" />
           <TableColumn prefWidth="173.59999084472656" style="-fx-font-size: 14; -fx-background-color: #FFFFFF;" text="Тип" />
@@ -72,12 +72,12 @@
             </DropShadow>
          </effect>
       </TableView>
-      <Button layoutX="1090.0" layoutY="115.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #1771F1;" text="Добавить заказ" textFill="WHITE">
+      <Button fx:id="addOrderButton" layoutX="1090.0" layoutY="115.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #1771F1;" text="Добавить заказ" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <Button layoutX="901.0" layoutY="116.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="179.0" style="-fx-border-color: #0260E8; -fx-background-color: 10;" text="Добавить товар" textFill="#0260e8">
+      <Button fx:id="addProtuctButton" layoutX="901.0" layoutY="116.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="179.0" style="-fx-border-color: #0260E8; -fx-background-color: 10;" text="Добавить товар" textFill="#0260e8">
          <font>
             <Font size="14.0" />
          </font>

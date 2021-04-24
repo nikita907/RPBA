@@ -31,12 +31,12 @@
             </DropShadow>
          </effect>
       </Rectangle>
-      <Button layoutX="682.0" layoutY="665.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="189.0" style="-fx-background-color: 10; -fx-border-color: #F85C50;" text="Отклонить резерв" textFill="#f85c50">
+      <Button fx:id="rejectReserveButton" layoutX="682.0" layoutY="665.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="189.0" style="-fx-background-color: 10; -fx-border-color: #F85C50;" text="Отклонить резерв" textFill="#f85c50">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="453.0" layoutY="666.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="215.0" style="-fx-border-color: #0260E8; -fx-background-color: 10;" text="Потдтвердить резерв" textFill="#0260e8">
+      <Button fx:id="confirmReserveButton" layoutX="453.0" layoutY="666.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="215.0" style="-fx-border-color: #0260E8; -fx-background-color: 10;" text="Потдтвердить резерв" textFill="#0260e8">
          <font>
             <Font size="14.0" />
          </font>
@@ -56,7 +56,7 @@
             <Font name="System Bold" size="36.0" />
          </font>
       </Text>
-      <TableView layoutX="10.0" layoutY="186.0" prefHeight="408.0" prefWidth="1279.0">
+      <TableView fx:id="ordersTableView" layoutX="10.0" layoutY="186.0" prefHeight="408.0" prefWidth="1279.0">
         <columns>
           <TableColumn prefWidth="139.20002365112305" style="-fx-font-size: 14; -fx-background-color: #FFFFFF;" text="№ заявки" />
           <TableColumn prefWidth="200.53329467773438" style="-fx-font-size: 14; -fx-background-color: #FFFFFF;" text="Кнтактный телефон" />
@@ -75,7 +75,7 @@
             </DropShadow>
          </effect>
       </TableView>
-      <Button layoutX="1090.0" layoutY="115.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #1771F1;" text="Добавить сделку" textFill="WHITE">
+      <Button fx:id="addDealButton" layoutX="1090.0" layoutY="115.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #1771F1;" text="Добавить сделку" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -88,6 +88,6 @@
       <Button layoutX="810.0" layoutY="125.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" style="-fx-background-color: F9FBFD;" text="Подтвердить резерв" textFill="#1771f1" />
       <Button layoutX="946.0" layoutY="125.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" style="-fx-background-color: F9FBFD;" text="Подтвердить скидку" textFill="#1771f1" />
       <Line endX="-100.0" endY="16.933319091796875" layoutX="1047.0" layoutY="129.0" startX="-100.0" stroke="#0000001d" />
-      <Button layoutX="1187.0" layoutY="673.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="114.0" style="-fx-background-color: F9FBFD;" text="Вернуться назад" textFill="#848a94" />
+      <Button fx:id="backButton" layoutX="1187.0" layoutY="673.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="114.0" style="-fx-background-color: F9FBFD;" text="Вернуться назад" textFill="#848a94" />
    </children>
 </AnchorPane>

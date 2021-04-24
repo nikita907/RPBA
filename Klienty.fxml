@@ -31,12 +31,12 @@
             </DropShadow>
          </effect>
       </Rectangle>
-      <Button layoutX="682.0" layoutY="665.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="126.0" style="-fx-background-color: 10; -fx-border-color: #F85C50;" text="Удалить" textFill="#f85c50">
+      <Button fx:id="deleteClientButton" layoutX="682.0" layoutY="665.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="126.0" style="-fx-background-color: 10; -fx-border-color: #F85C50;" text="Удалить" textFill="#f85c50">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="504.0" layoutY="666.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="164.0" style="-fx-border-color: #0260E8; -fx-background-color: 10;" text="Редактировать" textFill="#0260e8">
+      <Button fx:id="editClientButton" layoutX="504.0" layoutY="666.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="164.0" style="-fx-border-color: #0260E8; -fx-background-color: 10;" text="Редактировать" textFill="#0260e8">
          <font>
             <Font size="14.0" />
          </font>
@@ -49,14 +49,14 @@
       <Button layoutX="614.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Клиенты" />
       <Button layoutX="683.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Склад" />
       <Text layoutX="1121.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Илья Зеньковский" />
-      <Button layoutX="1247.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Выйти" textFill="#1771f1" />
+      <Button fx:id="exitButton" layoutX="1247.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Выйти" textFill="#1771f1" />
       <Line endX="-100.0" endY="16.933319091796875" layoutX="1338.0" layoutY="24.0" startX="-100.0" stroke="#0000003a" />
       <Text layoutX="10.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Клиенты">
          <font>
             <Font name="System Bold" size="36.0" />
          </font>
       </Text>
-      <TableView layoutX="10.0" layoutY="186.0" prefHeight="408.0" prefWidth="1279.0">
+      <TableView fx:id="clientTableView" layoutX="10.0" layoutY="186.0" prefHeight="408.0" prefWidth="1279.0">
         <columns>
           <TableColumn prefWidth="156.80001544952393" style="-fx-font-size: 14; -fx-background-color: #FFFFFF;" text="Организация" />
           <TableColumn prefWidth="288.8000030517578" style="-fx-font-size: 14; -fx-background-color: #FFFFFF;" text="Контактное лицо" />
@@ -74,7 +74,7 @@
             </DropShadow>
          </effect>
       </TableView>
-      <Button layoutX="1090.0" layoutY="115.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #1771F1;" text="Добавить клиента" textFill="WHITE">
+      <Button fx:id="addCkientButton" layoutX="1090.0" layoutY="115.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #1771F1;" text="Добавить клиента" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
