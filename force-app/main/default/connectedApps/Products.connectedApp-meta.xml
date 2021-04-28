@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nikita907official@gmail.com</contactEmail>
+    <contactPhone>+7 336389822</contactPhone>
+    <label>Products</label>
+    <oauthConfig>
+        <callbackUrl>https://routineautomation3-dev-ed.my.salesforce.com/</callbackUrl>
+        <consumerKey>3MVG9fe4g9fhX0E6vhPq532eiTGAj7BW0h0X.OKnb4AqCwamsvwUfyo_570EFyaod6e768cKncUXKg8IKdJYV</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
